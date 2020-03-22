@@ -1,3 +1,9 @@
+<style>
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+</style>
 /* Split the screen in half */
 .split {
   height: 100%;
