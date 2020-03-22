@@ -47,7 +47,7 @@ function generateTable(table, data) {
 }
 
 let table = document.querySelector("table");
-let data = Object.keys(mountains[0]);
+let data = Object.keys(table_data[0]);
 
 generateTable(table, table_data);
 generateTableHead(table, data);
