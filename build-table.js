@@ -1,4 +1,4 @@
-let mountains = [
+let table_data = [
 {'Name of State / UT': "Andhra Pradesh" , 'Total Cases' : 5},
 {'Name of State / UT': "Bihar" , 'Total Cases' : 2},
 {'Name of State / UT': "Chhattisgarh" , 'Total Cases' : 1},
@@ -49,5 +49,5 @@ function generateTable(table, data) {
 let table = document.querySelector("table");
 let data = Object.keys(mountains[0]);
 
-generateTable(table, mountains);
+generateTable(table, table_data);
 generateTableHead(table, data);
