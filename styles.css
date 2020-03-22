@@ -1,13 +1,13 @@
 <style>
 .content {
-  max-width: 1000px;
+  max-width: 500px;
   margin: auto;
   background: white;
   padding: 10px;
 }
 
 .split {
-  height: 10%;
+  height: 100%;
   width: 50%;
   position: fixed;
   z-index: 1;
@@ -18,7 +18,7 @@
 
 /* Control the left side */
 .left {
-  left: 1000;
+  left: 0;
   background-color: blue;
 }
 
